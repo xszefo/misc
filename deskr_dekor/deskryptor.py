@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-from weakref import WeakKeyDictionary
 
 class Deskryptor:
     def __init__(self, name):
