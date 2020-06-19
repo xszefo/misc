@@ -1,0 +1,15 @@
+---
+- name: Generate config file
+  hosts: localhost
+  connection: local
+  gather_facts: no
+  vars:
+    vlans:
+      - description: VLAN2525
+        vlan_number: 2525
+      - description: VLAN1211
+        vlan_number: 1211
+  tasks:
+   - name: Generate config file
+     template: src=vlan_template.j2 dest=config.set
+
