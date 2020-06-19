@@ -1,6 +1,0 @@
-{% for vlan in vlans %}
-set vlans vlan{{vlan.vlan_number}} description {{vlan.description}}
-set vlans vlan{{vlan.vlan_number}} vlan-id {{vlan.vlan_number}}
-set vlans vlan{{vlan.vlan_number}} vxlan vni {{vlan.vlan_number}}
-
-{% endfor %}

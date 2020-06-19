@@ -1,8 +1,8 @@
 set vlans vlan2525 description VLAN2525
 set vlans vlan2525 vlan-id 2525
 set vlans vlan2525 vxlan vni 2525
-
 set vlans vlan1211 description VLAN1211
 set vlans vlan1211 vlan-id 1211
 set vlans vlan1211 vxlan vni 1211
 
+set ntp server 1.1.1.1

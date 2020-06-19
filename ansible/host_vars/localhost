@@ -1,0 +1,7 @@
+---
+vlans:
+  - description: VLAN2525
+    vlan_number: 2525
+  - description: VLAN1211
+    vlan_number: 1211
+#ntp_server: 2.2.2.2

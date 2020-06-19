@@ -1,0 +1,9 @@
+---
+- name: Generate config file
+  hosts: localhost
+  connection: local
+  gather_facts: no
+  tasks:
+   - name: Generate config file
+     template: src=template.j2 dest=config.set
+
